@@ -1,6 +1,7 @@
 p {
     font-family: "Times New Roman", Georgia, Serif;
-    font-family: Arnoldboecklin, fantasy;
+    font-family: "Gill Sans", sans-serif; font-size: 20;
+    /*font-family: Arnoldboecklin, fantasy;*/
 }
 
 body {
@@ -40,7 +41,7 @@ header {
 
 .nav_menu li a:link,
 .nav_menu li a:visited {
-    background-color: aqua;
+    background-color: darkgrey;
     display: block;
     padding: 0.2em;
     text-decoration: none;
@@ -53,7 +54,7 @@ header {
 }
 
 .nav_menu li a:hover {
-    background-color:aquamarine;
+    background-color:grey;
     -webkit-transform: scale(2,2);
     -ms-transform: scale(2,2);
     transform: scale(2,2);
